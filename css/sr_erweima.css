@@ -1,0 +1,196 @@
+/* 页面初始化 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+
+@media screen and (min-width:360px){
+    html{
+        font-size: 112.5px;
+    }
+}
+
+@media screen and (min-width:375px){
+    html{
+        font-size: 117px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size: 129px;
+    }
+}
+
+/* box */
+.box{
+    width: 100%;
+}
+
+/* top */
+.box .top{
+    width: 100%;
+    height: 0.4rem;
+    background: black;
+    display: flex;
+    font-size: 0.16rem;
+    color: white;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.box .top div{
+    flex: 1;
+    line-height: 0.4rem;
+}
+
+.box .top .left{
+    text-align: left;
+}
+
+.box .top .left a{
+    color: white;
+}
+
+.box .top .middle{
+    text-align: center;
+}
+
+.box .top .right{
+    text-align: right;
+}
+
+.box .top .right a ul li{
+   width: 0.05rem;
+   height: 0.05rem;
+   background: white;
+   float: left;
+   border-radius: 50%;
+   margin-left: 0.02rem;
+}
+
+.box .top .right a{
+    display: inline-block;
+}
+
+/* top */
+
+/* main */
+.box .main{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    margin-top: 0.4rem;
+}
+
+.box .main .m_top{
+    width: 100%;
+    height: 2.12rem;
+    background: url(../images/sr_ewmbg.png) no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    padding: 0.075rem 0.1rem;
+    font-size: 0.14rem;
+}
+
+.box .main .m_top p{
+    margin-top: 0.11rem;
+}
+
+.box .main .m_top .ewm{
+    width: 1.11rem;
+    margin: 0.125rem auto 0;
+    text-align: center;
+    font-size: 0.12rem;
+}
+
+.box .main .m_top .ewm img{
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: 0.02rem
+}
+
+
+.box .main .m_bottom{
+    width: 100%;
+    background: white;
+    margin-top: 0.1rem;
+    font-size: 0.16rem;
+    box-sizing: border-box;
+}
+
+.box .main .m_bottom h6{
+    font-size: 0.16rem;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.3rem;
+    padding-left: 0.1rem;
+}
+
+.box .main .m_bottom li{
+    padding: 0.115rem 0.1rem;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.box .main .m_bottom li img{
+    width:0.585rem;
+    height:0.585rem;
+    flex: 1;
+}
+.box .main .m_bottom li p{
+    flex: 3;
+    font-size: 0.15rem;
+    box-sizing: border-box;
+    padding-left: 0.25rem;
+}
+
+.box .main .m_bottom li p a{
+    color: black;
+}
+
+.box .main .m_bottom>p{
+    line-height: 0.34rem;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 0.1rem;
+}
+
+.box .main .m_bottom>p>a{
+    color: #999999;
+}
+
+/* main */
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 12vh;
+    background: #b51c21;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 12vh;
+}
+
+.footer a{
+    color: white;
+    font-weight: bold;
+}
+
+/* footer */

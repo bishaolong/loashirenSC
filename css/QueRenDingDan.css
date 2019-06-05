@@ -1,0 +1,231 @@
+html {
+    font-size: 100px;
+}
+
+@media screen and (min-width:360px) {
+    html {
+        font-size: 112.5px
+    }
+}
+
+@media screen and (min-width:375px) {
+    html {
+        font-size: 117.2px
+    }
+}
+
+@media screen and (min-width:414px) {
+    html {
+        font-size: 119.3px
+    }
+}
+
+body {
+    background: #f4f4f4;
+}
+
+
+body,
+ul,
+div,
+img,
+p,
+a,
+h3,
+span {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.adress {
+    height: 0.64rem;
+    background: white;
+    line-height: 0.64rem;
+    padding: 0 0.1rem;
+    overflow: hidden;
+	margin-top: 0.41rem;
+}
+
+.adress-one {
+    width: 1.385rem;
+    height: 0.225em;
+    float: left;
+}
+
+.adress-one img {
+    width: 0.2rem;
+    height: 0.2rem;
+    float: left;
+    position: relative;
+    top: 0.225rem;
+}
+
+.adress-one span {
+    display: block;
+    font-size: 0.15rem;
+    text-indent: 0.07rem;
+}
+
+.adress .jiantou a {
+    font-size: 0.2rem;
+    float: right;
+    color: black;
+
+}
+
+/* jiesuan */
+.jiesuan {
+    height: 2.925rem;
+    background: white;
+    margin-top: 0.1rem;
+    padding: 0 0.1rem;
+}
+
+.jiesuan-shangcheng {
+    height: 0.315rem;
+    border-bottom: 1px solid #dddddd;
+    line-height: 0.315rem;
+}
+
+.jiesuan-shangcheng img {
+    width: 0.115rem;
+    height: 0.115rem;
+    float: left;
+    position: relative;
+    top: 0.1rem;
+}
+
+.jiesuan-shangcheng p {
+    display: block;
+    font-size: 0.15rem;
+    text-indent: 0.07rem;
+}
+
+/* dianpu */
+.gouwuchejs {
+    height: 0.81rem;
+    /* margin: 0.1rem 0; */
+    background: white;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dddddd;
+}
+
+.gouwuchejs img {
+    float: left;
+    width: 0.65rem;
+    height: 0.65 rem;
+    margin-top: 0.1rem;
+}
+
+.gouwuchejs-a {
+    width: 2rem;
+    height: 0.425em;
+    position: relative;
+    top: 0.2rem;
+    left: 0.05rem;
+}
+
+.gouwuchejs-a p {
+    width: 2.5rem;
+
+    font-size: 0.16rem;
+    /* line-height: 0.6rem; */
+}
+
+.gouwuchejs-a p a {
+    display: block;
+    font-size: 0.12rem;
+    color: black;
+}
+
+.gouwuchejs-a p a span {
+    color: #b51c21;
+}
+
+/* 给卖家留言 */
+.jiesuan .js-p1 {
+
+    font-size: 0.16rem;
+    border: 1px solid #bbb;
+    margin-top: 0.15rem;
+}
+
+.jiesuan .js-p1 input {
+    display: block;
+    width: 3rem;
+    height: 0.32rem;
+}
+
+.jiesuan .js-p2 {
+    font-size: 0.16rem;
+    margin-top: 0.15rem;
+    float: right;
+}
+
+.jiesuan .js-p2 span {
+    color: #b51c21;
+}
+
+/* 商品金额 */
+ul {
+    overflow: hidden;
+}
+
+.zhifu {
+    height: 0.885rem;
+    background: white;
+    padding: 0 0.095rem;
+    margin-top: 0.1rem;
+}
+
+.zhifu li {
+    height: 0.425rem;
+    line-height: 0.425rem;
+}
+
+.zhifu li p {
+    display: inline-block;
+    font-size: 0.16rem;
+}
+
+.zhifu li p:nth-child(1) {
+    float: left;
+}
+
+.zhifu li p:nth-child(2) {
+    float: right;
+}
+
+/* footer */
+.querendingdan {
+    height: 0.5rem;
+    background: white;
+    padding: 0 0.1rem 0 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.dd-p1 {
+    font-size: 0.16rem;
+    color: #b51c21;
+    float: left;
+    text-indent: 0.7rem;
+    line-height: 0.5rem;
+    margin-right: 0.1rem;
+}
+
+.dd-p2 {
+    width: 0.91rem;
+    height: 0.39rem;
+    background: #b51c21;
+    float: left;
+    margin-top: 0.06rem;
+}
+
+.dd-p2 a {
+    display: block;
+    font-size: 0.16rem;
+    color: white;
+    text-align: center;
+    line-height: 0.39rem;
+}

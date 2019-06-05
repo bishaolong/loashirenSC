@@ -1,0 +1,165 @@
+html{
+    font-size: 100px;
+}
+*{
+    margin:0;
+}
+
+.toubu{
+    width:3.2rem;
+    height:0.41rem;
+    border:1px solid #ccc;
+    margin:0 auto;
+    background: #1a1a1f;
+}
+.toubu1,a{
+    position: relative;
+    top:-0.8rem;
+    left:0.08rem;
+    color:white;
+    font-size:0.2rem;
+}
+.toubu2{
+    padding-left:0.6rem;
+    color:white;
+    font-size:0.2rem;
+    display: inline;
+    position: relative;
+    top:-0.8rem;
+    text-align: center;
+}
+.toubu3{
+    padding-left:2.5rem;
+    position: relative;
+    top:-2.1rem;
+}   
+.touxia{
+    width:3.2rem;
+    height:0.75rem;
+    border:1px solid #ccc;
+    margin:0 auto;
+    background-color: #b51c21;
+}
+.touxia a{
+    margin-top:0.8rem;
+}
+.touxi1{
+    color:white;
+}
+.touxi2{
+    position: relative;
+    top:-1.8rem;
+    left:0.6rem;
+}
+.zhongjian{
+    width:3.2rem;
+    height:0.44rem;
+    border:1px solid #ccc;
+    margin:0 auto;
+}
+.zhongjian1{
+    font-size: 0.25rem;
+    color:black;
+}
+.zhongjian2{
+    color:black;
+    margin-left:0.4rem;
+}
+.fukuan{
+    width:3.2rem;
+    height:0.65rem;
+    border:1px solid #ccc;
+    margin:0 auto;
+}
+.fukuan span{
+    color:black;
+    font-size: 0.15rem;
+    text-decoration: none;
+    float:left;
+    margin-left:0.25rem;
+}
+.xiaji{
+    width:3.2rem;
+    height:0.44rem;
+    font-size:0.15rem;
+    border:1px solid #ccc;
+    margin:0 auto;
+}
+.xiaji1{
+    margin-left:3rem;
+    color:black;
+    line-height:2rem;
+    margin:0 auto;
+}
+.xiaji2{
+    font-size: 0.15rem;
+    float: left;
+    color: black;
+    margin-top:0.9rem;
+}
+.xiaji3{
+    margin-left:-0.6rem;
+    line-height:2rem;
+    color: black;
+    font-size: 0.15rem;
+}
+.xiaji4{
+    margin-left:3rem;
+    color: red;
+    position: relative;
+    top:-1.9rem;
+    left:-0.15rem;
+    font-size: 0.15rem;
+}
+.xiaji5{
+    margin-left:3rem;
+    color:black;
+    position: relative;
+    top:-1.9rem;
+    left:-0.1rem;
+}
+.kongbai{
+    width:3.2rem;
+    height:1.365rem;
+    margin:0 auto;
+    background-color:#f4f4f4;
+}
+.zueihou{
+    display:flex;
+    height:0.52rem;
+    list-style-type:none;
+}
+.zueihou li{
+    flex:1;
+}
+/* .zueihou li a{ */
+    /* color:black; */
+    /* font-size: 0.15rem; */
+    /* margin-left:-0.3rem; */
+/* } */
+.zueihou1{
+    position: relative;
+    top:-1.8rem;
+    left:-0.25rem;
+}
+.zueihou2{
+    position: relative;
+    top:-1.8rem;
+    left:-0.25rem;
+}
+.zueihou3{
+    position: relative;
+    top:-1.8rem;
+    left:-0.25rem;
+}
+.zueihou4{
+    position: relative;
+    top:-1.8rem;
+    left:-0.25rem;
+}
+.zueihou p{
+    font-size:0.15rem;
+    position: relative;
+    top:0.7rem;
+    color:black;
+}

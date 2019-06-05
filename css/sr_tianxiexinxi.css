@@ -1,0 +1,148 @@
+/* 页面初始化 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+
+@media screen and (min-width:360px){
+    html{
+        font-size: 112.5px;
+    }
+}
+
+@media screen and (min-width:375px){
+    html{
+        font-size: 117px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size: 129px;
+    }
+}
+
+/* box */
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+/* top */
+.box .top{
+    width: 100%;
+    height: 0.4rem;
+    background: black;
+    display: flex;
+    font-size: 0.16rem;
+    color: white;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.box .top div{
+    flex: 1;
+    line-height: 0.4rem;
+}
+
+.box .top .left{
+    text-align: left;
+}
+
+.box .top .left a{
+    color: white;
+}
+
+.box .top .middle{
+    text-align: center;
+}
+
+.box .top .right{
+    text-align: right;
+}
+
+.box .top .right a ul li{
+   width: 0.05rem;
+   height: 0.05rem;
+   background: white;
+   float: left;
+   border-radius: 50%;
+   margin-left: 0.02rem;
+}
+
+.box .top .right a{
+    display: inline-block;
+}
+
+/* top */
+
+/* main */
+.box .main{
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    font-size: 0.16rem;
+    margin-top: 0.4rem;
+}
+
+.box .main li{
+    width: 100%;
+    height: 0.425rem;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 0 0.1rem;
+}
+
+.box .main li input{
+    width: 100%;
+    height: 0.4rem;
+    border: 0;
+    line-height: 0.425rem;
+    color: #bfbfbf;
+    outline: none;
+}
+
+.box .main li select{
+    width: 100%;
+    height: 0.4rem;
+    border: 0;
+    line-height: 0.425rem;
+    appearance:none;
+    -webkit-appearance:none; /*Safari 和 Chrome */
+    outline: none;
+}
+/* main */
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 12vh;
+    background: #b51c21;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 12vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a{
+    color: white;
+    font-weight: bold;
+}
+
+/* footer */

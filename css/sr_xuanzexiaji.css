@@ -1,0 +1,186 @@
+/* 页面初始化 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+
+@media screen and (min-width:360px){
+    html{
+        font-size: 112.5px;
+    }
+}
+
+@media screen and (min-width:375px){
+    html{
+        font-size: 117px;
+    }
+}
+
+@media screen and (min-width:414px){
+    html{
+        font-size: 129px;
+    }
+}
+
+
+/* box */
+.box{
+    width: 100%;
+}
+
+/* top */
+.box .top{
+    width: 100%;
+    height: 0.4rem;
+    background: black;
+    display: flex;
+    font-size: 0.16rem;
+    color: white;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.box .top div{
+    flex: 1;
+    line-height: 0.4rem;
+}
+
+.box .top .left{
+    text-align: left;
+}
+
+.box .top .left a{
+    color: white;
+}
+
+.box .top .middle{
+    text-align: center;
+}
+
+.box .top .right{
+    text-align: right;
+}
+
+.box .top .right a ul li{
+   width: 0.05rem;
+   height: 0.05rem;
+   background: white;
+   float: left;
+   border-radius: 50%;
+   margin-left: 0.02rem;
+}
+
+.box .top .right a{
+    display: inline-block;
+}
+
+/* top */
+
+/* main */
+.box .main{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+}
+
+.box .main .m_top{
+    width: 100%;
+    height: 0.4rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    font-size: 0.14rem;
+}
+
+.box .main .m_top div{
+    flex: 1;
+    text-align: center;
+    line-height: 0.4rem;
+}
+
+.box .main .m_top .m_t_right{
+    background: #f4f4f4;
+}
+
+.box .main .m_top a{
+    color: black;
+}
+
+.box .main .m_middle li{
+    box-sizing: border-box;
+    padding: 0.1rem 0.125rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    font-size: 0.14rem;
+}
+.box .main .m_middle li .touxiang{
+    flex: 1;
+}
+.box .main .m_middle li .touxiang img{
+    width: 0.485rem;
+    height: 0.48rem;
+}
+
+.box .main .m_middle li .wenzi{
+    flex: 3;
+    text-align: left;
+    margin-top: 0.05rem;
+}
+.box .main .m_middle li .wenzi a{
+    display:block;
+    color: black;
+    font-size: 0.16rem;
+}
+
+.box .main .m_middle li .wenzi span{
+    display:block;
+    color: #959595;
+}
+
+.box .main .m_middle li .dian{
+    flex: 1;
+    text-align:right;
+}
+
+.box .main .m_middle li .dian span{
+    color: white;
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.22rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-top: 0.15rem;
+    text-align: center;
+}
+/* main */
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 12vh;
+    background: #b51c21;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 12vh;
+}
+
+.footer a{
+    color: white;
+    font-weight: bold;
+}
+
+/* footer */

@@ -1,0 +1,429 @@
+html {
+    font-size: 100px;
+}
+
+@media screen and (min-width:360px) {
+    html {
+        font-size: 112.5px
+    }
+}
+
+@media screen and (min-width:375px) {
+    html {
+        font-size: 117.2px
+    }
+}
+
+@media screen and (min-width:414px) {
+    html {
+        font-size: 119.3px
+    }
+}
+
+body {
+    background: #f4f4f4;
+}
+
+
+body,
+ul,
+div,
+img,
+p,
+a,
+h3,
+span {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.top {
+    background: black;
+    height: 0.425rem;
+    font-size: 0.14rem;
+    color: white;
+    text-align: center;
+    line-height: 0.425rem;
+    display: flex;
+	
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+
+.top .fan3hui4 {
+    width: 0.475rem;
+    height: 0.175rem;
+    /* float: left; */
+    color: white;
+    flex: 1;
+    justify-content: center;
+    margin-left: 0.08rem;
+}
+
+
+.top .fan3hui4 img {
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.175rem;
+    position: relative;
+    top: 0.03rem;
+}
+
+.top p {
+    flex: 5;
+}
+
+.top .sangedian {
+    width: 0.285rem;
+    height: 0.175rem;
+    display: block;
+    flex: 1;
+}
+
+.top .sangedian span {
+    border-radius: 100%;
+    display: inline-block;
+    width: 0.04rem;
+    height: 0.04rem;
+    background: white;
+}
+
+/* banner */
+.banner {
+    width: 100vm;
+    height: 4.235rem;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+}
+
+.banner .banner-pic {
+    width: 2.55rem;
+    height: 2.55rem;
+    margin: 0 auto;
+    padding-top: 0.225rem;
+}
+
+.banner .banner-pic img {
+    width: 2.55rem;
+    height: 2.55rem;
+}
+
+.banner-dian {
+    width: 0.8rem;
+    height: 0.09rem;
+    margin-left: -0.4rem;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+}
+
+.banner-dian span {
+    display: block;
+    width: 0.075rem;
+    height: 0.075rem;
+    border-radius: 100%;
+    background: #bbafa3;
+    float: left;
+    margin: 0.055rem;
+}
+
+/* name */
+.name {
+    width: 96vw;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+}
+
+.name-chanp {
+    width: 96vw;
+    height: 0.535rem;
+    display: flex;
+
+}
+
+.name-chanp-a {
+    font-size: 0.14rem;
+    width: 1.95rem;
+    height: 0.36rem;
+    border-right: 0.01rem solid #d4d4d4;
+}
+
+.name-chanp-a a {
+    font-size: 0.135rem;
+    color: black;
+}
+
+.name-chanp .name-chanp-b {
+    font-size: 0.15rem;
+    width: 0.9rem;
+    height: 0.325rem;
+    background: #b51c21;
+    border-radius: 0.05rem;
+    text-align: center;
+    line-height: 0.325rem;
+    margin-left: 0.1rem;
+}
+
+.name-chanp .name-chanp-b img {
+    width: 0.14rem;
+    height: 0.14rem;
+    position: relative;
+    top: 0.02rem;
+    right: 0.01rem;
+
+}
+
+.name-chanp .name-chanp-b a {
+    color: white;
+}
+
+.jiage {
+    height: 0.4rem;
+    border-top: 1px dashed #dddddd;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.jiage p {
+    font-size: 0.14rem;
+    color: #b51c21;
+    line-height: 0.5rem;
+    text-indent: 0.05rem;
+    float: left;
+}
+
+.jiage img {
+    width: 0.215rem;
+    height: 0.195rem;
+    float: right;
+    position: relative;
+    bottom: 0.3rem;
+    right: 0.03rem;
+}
+
+.jiage b {
+    font-size: 0.13rem;
+    color: #a7a7a7;
+    float: right;
+    line-height: 0.5rem;
+}
+
+/* num */
+.num {
+    height: 0.44rem;
+    margin: 0.1rem 0;
+    font-size: 0.15rem;
+    line-height: 0.44rem;
+    text-indent: 0.05rem;
+    background: white;
+}
+
+.num p {
+    float: left;
+}
+
+.num-a {
+    width: 1.145rem;
+    height: 0.295rem;
+    display: flex;
+    float: left;
+    margin: 0.07rem 0 0.07rem 0.07rem;
+
+}
+
+.num-a div {
+    border: 1px solid #dddddd;
+    flex: 1;
+}
+
+.num-a div a {
+    display: block;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.295rem;
+}
+
+/* dianpu */
+.dianpu {
+    height: 0.8rem;
+    margin: 0.1rem 0;
+    background: white;
+    padding: 0 0.08rem;
+
+}
+
+.dianpu img {
+    float: left;
+    width: 0.455rem;
+    height: 0.455rem;
+    margin-top: 0.2rem;
+}
+
+.dianpu-a {
+    width: 1.5rem;
+    height: 0.425em;
+    position: relative;
+    top: 0.2rem;
+    left: 0.05rem;
+}
+
+.dianpu-a p {
+    font: 0.16rem;
+    /* line-height: 0.6rem; */
+}
+
+.dianpu-a p a {
+    display: block;
+    font-size: 0.16rem;
+    color: black;
+}
+
+/* .tuwenxq */
+.tuwenxq {
+    height: 100%;
+    background: white;
+}
+
+.tuwenxq-top {
+    height: 0.385em;
+    display: flex;
+}
+
+.tuwenxq-top {
+    height: 0.385rem;
+}
+
+.tuwenxq div {
+    flex: 1;
+
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+.tuwenxq-top div:first-child {
+    border-bottom: 1px solid #b51c21;
+}
+
+
+.tuwenxq-top div:first-child a {
+    color: #b51c21;
+}
+
+.tuwenxq-top div a {
+    display: block;
+    text-align: center;
+    line-height: 0.385rem;
+    font-size: 0.16rem;
+    color: black;
+}
+
+.tuwenxq-pic {}
+
+.tuwenxq-pic img {
+    width: 3.2rem;
+    height: 21.64rem;
+}
+
+footer {
+    width: 100vw;
+    height: 0.525rem;
+    background: white;
+    display: flex;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+}
+
+footer div:nth-child(1) {
+    flex: 2;
+}
+
+.footer-bom {
+    width: 0.4rem;
+    height: 0.5rem;
+    margin: 0.1rem auto;
+    position: relative;
+}
+
+.footer-bom a {
+    display: block;
+    width: 0.18rem;
+    height: 0.17rem;
+    margin: 0 auto;
+}
+
+.footer-bom img {
+    width: 0.225rem;
+    height: 0.175rem;
+    vertical-align: text-top;
+}
+
+.footer-bom p {
+    display: block;
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.05rem;
+}
+
+.footer-bom p a {
+    display: block;
+    width: 0.4rem;
+    height: 0.17rem;
+    text-align: center;
+    font-size: 0.08rem;
+    color: black
+}
+
+.num-right::after {
+    content: "2";
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #b51c21;
+    color: white;
+    line-height: 0.18rem;
+    text-align: center;
+    font-size: 0.16rem;
+    position: absolute;
+    top: -0.05rem;
+    right: 0;
+}
+
+
+/* child（1）结束 */
+footer div:nth-child(2) {
+    flex: 3;
+    width: 1.25rem;
+    background: #f2a649;
+}
+
+footer div:nth-child(2) a {
+    display: block;
+    font-size: 0.15rem;
+    color: white;
+    text-align: center;
+    line-height: 0.525rem;
+    background: #f2a649;
+}
+
+footer div:nth-child(3) {
+    flex: 3;
+    width: 1.14rem;
+}
+
+footer div:nth-child(3) a {
+    display: block;
+    font-size: 0.15rem;
+    color: white;
+    text-align: center;
+    line-height: 0.525rem;
+    background: #b51c21;
+}
